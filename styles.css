@@ -1,0 +1,60 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dws .highlight {
+    background: rgb(255, 230, 0);
+}
+#dws {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+     transform: translate(-10%, -10%);
+   
+}
+
+body {
+    background-image: url(img/four.jpg);
+    background-size: 100%;
+}
+
+.butt1, .butt2, .butt3, .butt4, .butt5, .butt6, .butt7 {
+    border: 3px solid #288528;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.display {
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 400px;
+    background: white;
+    border: 3px solid #288528;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 200px;
+    font-size: 30px;
+
+}
+.user-location p {
+    font-size: 30px;
+}
+
+
+.butt{
+    border-radius: 10px;
+}
+.butt1{
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.butt:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
