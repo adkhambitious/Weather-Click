@@ -83,16 +83,14 @@ buttons.onclick = function(eve) {
 //ПОЛУЧЕНИЕ ДАННЫХ API ОТ ПРОВАЙДЕРА
 
 function getWeather(latitude, longitude) {
-    const api = `http://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${key}`;
+    const api = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${key}`;
     fetch(api)
         .then(response => {
             let data = response.json();
-
             return data;
         })
         .then(function(data){
             let counter = 0;
-          
             for(let i = 0; i < 40; i += 8) {
                 
                 let weatherForOneDay = data.list[i];
